@@ -4,7 +4,81 @@
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
+    --white-color: #ffffff;
+    --secondary-color: #EE5007;
+    --section-bg-color: #f0f8ff;
+    --custom-btn-bg-color: #EE5007;
+    --custom-btn-bg-hover-color: #c01f27;
+    --dark-color: #000000;
+    --p-color: #717275;
+    --border-color: #7fffd4;
+    --link-hover-color: #B22727;
+
+    --body-font-family: 'Outfit', sans-serif;
+
+    --h1-font-size: 74px;
+    --h2-font-size: 46px;
+    --h3-font-size: 32px;
+    --h4-font-size: 28px;
+    --h5-font-size: 24px;
+    --h6-font-size: 22px;
+    --p-font-size: 18px;
+    --btn-font-size: 14px;
+    --copyright-font-size: 16px;
+
+    --border-radius-large: 100px;
+    --border-radius-medium: 20px;
+    --border-radius-small: 10px;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
 }
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 45px;
+}
+
+.nav-tabs {
+    background-color: #f0f8ff;
+    border-radius: 100px;
+    border-bottom: 0;
+    padding: 15px;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 100px;
+    border: 0;
+    padding: 15px 25px;
+    transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:first-child {
+    margin-right: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    background: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    color: var(--primary);
+}
+
+.nav-tabs h5 {
+    color: #717275;
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link.active h5,
+.nav-tabs .nav-link:focus h5,
+.nav-tabs .nav-link:hover h5 {
+    color: var(--primary);
+}
+
 
 
 /*** Spinner ***/
@@ -169,7 +243,7 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -227,7 +301,7 @@ h6,
         center center,
         center bottom;
     background-repeat: no-repeat;
-    background-size: auto,auto,auto,auto,auto,contain;
+    background-size: auto, auto, auto, auto, auto, contain;
 }
 
 @media (max-width: 991.98px) {
@@ -520,7 +594,7 @@ h6,
     background-position:
         center top,
         center center;
-    background-size: contain,auto;    
+    background-size: contain, auto;
     background-repeat: no-repeat;
 }
 
